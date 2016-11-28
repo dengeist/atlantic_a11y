@@ -28,11 +28,16 @@ input#prefs-btn {
     width: 60%;
 }
 
-#prefs-modal fieldset:last-of-type {
+#prefs-form label {
+    display: block;
+    padding: .25em;
+}
+
+#prefs-form fieldset:last-of-type {
     margin-bottom: 2em;
 }
 
-#prefs-modal button {
+#prefs-form button {
     color: #fff;
     background-color: #EC1B23;
     border-radius: 0;

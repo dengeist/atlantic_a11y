@@ -1,9 +1,15 @@
-input#prefs-btn {
+#prefs-btn img{
     width: 20px;
     height: auto;
     vertical-align: bottom;
     padding: 0;
     border: none;
+}
+
+/* Prevent menu icon from appearing
+after preferences link.  */
+#site-nav a#prefs-btn::after {
+    content: none;
 }
 
 #prefs-modal {

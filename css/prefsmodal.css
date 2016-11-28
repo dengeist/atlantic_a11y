@@ -27,3 +27,16 @@ input#prefs-btn {
     border: 1px solid #888;
     width: 60%;
 }
+
+#prefs-modal fieldset:last-of-type {
+    margin-bottom: 2em;
+}
+
+#prefs-modal button {
+    color: #fff;
+    background-color: #EC1B23;
+    border-radius: 0;
+    font-family: 'Rajdhani',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+
+}

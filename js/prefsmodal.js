@@ -83,7 +83,10 @@ $(document).ready(function() {
         }
         if (e.keycode === 27 || e.which === 27) {
             $prefsModal.hide();
-            $prefsModal.attr('aria-hidden', 'true');
+            $prefsModal.prop({
+                'aria-hidden': true,
+                'hidden':true
+            });
         }
     });
 
